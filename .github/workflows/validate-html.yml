@@ -2,9 +2,9 @@ name: Validate HTML
 
 on:
   push:
-    branches: [main]
+    branches: [testLint]
   pull_request:
-    branches: [main]
+    branches: [testLint]
 
 jobs:
   validate-html:
